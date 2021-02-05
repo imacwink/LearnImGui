@@ -12,6 +12,8 @@
                     "${workspaceRoot}/src/common/*.cpp",
                     "${workspaceRoot}/src/example/*.cpp",
                     "${workspaceRoot}/dependencies/imgui/*.cpp",
+                    "${workspaceRoot}/dependencies/imgui/backends/imgui_impl_glfw.cpp",
+                    "${workspaceRoot}/dependencies/imgui/backends/imgui_impl_opengl3.cpp",
                     "${workspaceRoot}/dependencies/GLAD/src/glad.c",
                     "${workspaceRoot}/dependencies/stb_image/src/stb_image.cpp",
                     "-g",
